@@ -1,7 +1,7 @@
 import TripIndex from './components/trips/index.vue';
 import TripCreate from './components/trips/create.vue';
 import TripEdit from './components/trips/edit.vue';
-import TripShow from './components/trips/show.vue';
+import TripApropos from './components/trips/apropos.vue';
 
 export const routes = [
     {
@@ -19,9 +19,9 @@ export const routes = [
         component: TripEdit,
         name: "TripEdit"
     },
-   /*  {
-        path: '/trips/autocomplete',
-        component: TripIndex,
-        name: "TripIndex"
-    } */
+    {
+        path: '/trips/apropos',
+        component: TripApropos,
+        name: "TripApropos"
+    } 
 ];

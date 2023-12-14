@@ -4,6 +4,8 @@
             <div class="collapse navbar-collapse">
                 <div class="navbar-nav">
                     <router-link :to="{ name: 'TripIndex' }"  class="nav-item nav-link">Trips</router-link>
+                    <router-link :to="{ name: 'TripApropos' }"  class="nav-item nav-link">A propos</router-link>
+
                 </div>
             </div>
         </nav>

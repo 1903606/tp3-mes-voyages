@@ -9,6 +9,11 @@ use App\Models\Trip;
 
 class TripController extends Controller
 {
+
+    public function apropos()
+    {
+        return view('apropos');
+    }
     public function index()
     {
         $trips = Trip::orderby('id', 'desc')->get();
